@@ -27,9 +27,9 @@ export default function RootLayout({ children }) {
       >
         <Navbar />
         <hr />
-       <main className="min-h-[calc(100vh-10rem)] ">
-       {children}
-       </main>
+        <main className="min-h-[calc(100vh-10rem)] ">
+          {children}
+        </main>
         <Footer />
         <hr />
         <Copyright />
