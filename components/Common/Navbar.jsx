@@ -9,14 +9,14 @@ import NavItem from "./NavItem";
 
 export default function Navbar() {
   return (
-    <header className="flex items-center justify-between py-2 ">
+    <header className="flex items-center justify-between py-2 gap-gap ">
       <h1 className="text-3xl font-bold">Logo</h1>
       <NavItem />
       <div className="flex gap-gap items-center">
-        <div className="relative">
+        <div className="relative ">
           <Input
             type="search"
-            className="pr-7 border border-line "
+            className="pr-7 border border-line w-full "
             placeholder="What are you looking for?"
           />
 

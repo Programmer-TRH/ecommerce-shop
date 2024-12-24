@@ -9,18 +9,18 @@ export default function Footer() {
       <div>
         <h1 className="text-3xl font-semibold mb-2">Logo</h1>
         <SubTitle subtitle="Subscribe" />
-        <div className="relative w-4/5">
+        <form className="relative w-4/5">
           <Input
-            type="text"
+            type="email"
             placeholder="Enter your email"
             id="subscribe"
             label="Subscribe"
-            className="bg-black text-secondary-white pr-7 w-full"
+            className="bg-black text-secondary-white pr-7 w-full" required
           />
-          <button className="absolute transform top-[55%] -translate-y-[50%] right-0.5 cursor-pointer hover:scale-105 transition-scale duration-200 ">
+          <button type="submit" className="absolute transform top-[55%] -translate-y-[50%] right-0.5 cursor-pointer hover:scale-105 transition-scale duration-200 ">
             <SendIcon className="fill-secondary-white" />
           </button>
-        </div>
+        </form>
       </div>
       <div>
         <SubTitle subtitle="Support" />

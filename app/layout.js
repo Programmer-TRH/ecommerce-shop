@@ -19,7 +19,7 @@ export default function RootLayout({ children }) {
   return (
     <html lang="en">
       <body
-        className={`${poppinsSans.variable} font-sans bg-primary-white min-h-[100dvh]  text-text-color-black *:px-center grid grid-rows-[auto_1fr_auto_auto] max-w-full`}
+        className={`${poppinsSans.variable} font-sans bg-primary-white min-h-[100dvh]  text-text-color-black *:px-center grid grid-rows-[auto_1fr_auto_auto] max-w-full overflow-x-hidden`}
       >
         <Navbar />
         <hr  className="text-line"  />
