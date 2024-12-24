@@ -6,7 +6,7 @@ import Copyright from "@/components/Common/Copyright";
 
 const poppinsSans = Poppins({
   variable: "--font-poppins-sans",
-  subsets: ["sans"],
+  subsets: ["latin"],
   weight: ["100", "200", "300", "400", "500", "600", "700", "800", "900"],
 });
 

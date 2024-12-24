@@ -4,16 +4,14 @@ import SearchIcon from "@/Icons List/SearchIcon";
 import React from "react";
 import Input from "./Input";
 import LoginProfileButton from "./LoginProfileButton";
+import NavItem from "./NavItem";
+
 
 export default function Navbar() {
   return (
     <header className="flex items-center justify-between py-2 ">
       <h1 className="text-3xl font-bold">Logo</h1>
-      <nav className="max-md:hidden flex justify-between gap-gap *:px-gap">
-        <a href="#">Home</a>
-        <a href="#">Contact</a>
-        <a href="#">About</a>
-      </nav>
+      <NavItem />
       <div className="flex gap-gap items-center">
         <div className="relative">
           <Input
