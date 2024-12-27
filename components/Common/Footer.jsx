@@ -26,7 +26,7 @@ export default function Footer() {
         <SubTitle subtitle="Support" />
         <p>RN Road , Dhaka, Bangladesh.</p>
         <p>support@gmail.com</p>
-        <p>+01723525234</p>
+        <p>+8801723525234</p>
       </div>
       <div>
         <SubTitle subtitle="Account" />

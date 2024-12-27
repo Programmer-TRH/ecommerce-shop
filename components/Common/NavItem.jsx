@@ -15,7 +15,7 @@ export default function NavItem() {
   return (
     <nav className="max-md:hidden flex justify-between gap-gap">
      {navItems.map((item) => (
-        <Link key={item.name} href={item.path} className={cn("px-button-inline py-button-block border rounded-md border-white transition-color duration-300 hover:font-semibold", pathname === item.path ? "bg-secondary-smoke  border-line font-semibold" : "text-base")}>
+        <Link key={item.name} href={item.path} className={cn("px-button-inline py-button-block border rounded-md border-white transition-color duration-300 hover:font-semibold text-primary-black", pathname === item.path ? "bg-secondary-red font-semibold" : "text-base ")}>
             {item.name}
         </Link>
      ))}

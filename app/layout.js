@@ -25,7 +25,7 @@ export default function RootLayout({ children }) {
         <Navbar />
         <MobileNavBar />
         <hr  className="text-line"  />
-        <main className="min-h-[calc(100vh-10rem)] ">
+        <main className="min-h-[calc(100vh-10rem)] py-8 ">
           {children}
         </main>
         <Footer />

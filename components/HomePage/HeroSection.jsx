@@ -13,7 +13,7 @@ import Baby from "@/Icons List/HeroIconList/Baby";
 
 export default function HeroSection() {
   return (
-    <section className="grid gap-1 md:grid-cols-[2fr_7fr] py-8  ">
+    <section className="grid gap-1 md:grid-cols-[2fr_7fr] pb-6  ">
       <div className="border-r border-line hidden md:block *:flex *:items-center *:gap-1.5 **:text-nowrap **:font-medium **:text-lg *:pb-3  ">
         <div>
           <WomensFashion className="w-5 h-4 inline-block" />
