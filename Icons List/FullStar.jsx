@@ -1,13 +1,14 @@
 import React from 'react'
 
-export default function FullStar(...props) {
+export default function FullStar({className="",...props}) {
   return (
     <svg
-    width={16}
-    height={15}
+    width={20}
+    height={20}
     viewBox="0 0 16 15"
     fill="none"
     xmlns="http://www.w3.org/2000/svg"
+    className={className}
     {...props}
   >
     <path

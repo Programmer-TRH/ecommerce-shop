@@ -1,22 +1,19 @@
 import React from 'react'
 
-export default function RightArrow(...props) {
+export default function RightArrow({className="" ,...props}) {
   return (
     <svg
     width={24}
     height={24}
     viewBox="0 0 24 24"
-    fill="none"
+    data-name="Flat Color"
     xmlns="http://www.w3.org/2000/svg"
-    transform="scale(-1 1)"
+    className={className}
     {...props}
+    fill='#000'
   >
     <path
-      d="m11 5-7 7 7 7m-7-7h16"
-      stroke="#000"
-      strokeWidth={2}
-      strokeLinecap="round"
-      strokeLinejoin="round"
+      d="m21.71 11.29-7-7a1 1 0 0 0-1.42 1.42l5.3 5.29H3a1 1 0 0 0 0 2h15.59l-5.3 5.29a1 1 0 0 0 0 1.42 1 1 0 0 0 1.42 0l7-7a1 1 0 0 0 0-1.42"
     />
   </svg>
   )

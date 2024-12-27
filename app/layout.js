@@ -3,6 +3,7 @@ import "./globals.css";
 import Navbar from "@/components/Common/Navbar";
 import Footer from "@/components/Common/Footer";
 import Copyright from "@/components/Common/Copyright";
+import MobileNavBar from "@/components/Common/MobileNavBar";
 
 const poppinsSans = Poppins({
   variable: "--font-poppins-sans",
@@ -22,6 +23,7 @@ export default function RootLayout({ children }) {
         className={`${poppinsSans.variable} font-sans bg-primary-white min-h-[100dvh]  text-text-color-black *:px-center grid grid-rows-[auto_1fr_auto_auto] max-w-full overflow-x-hidden`}
       >
         <Navbar />
+        <MobileNavBar />
         <hr  className="text-line"  />
         <main className="min-h-[calc(100vh-10rem)] ">
           {children}
@@ -33,3 +35,4 @@ export default function RootLayout({ children }) {
     </html>
   );
 }
+ 

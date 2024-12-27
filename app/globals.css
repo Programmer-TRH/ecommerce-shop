@@ -44,7 +44,7 @@
   --color-success: #00BA88;
   --color-warning: #F4B740;
 
-  --spacing-center: clamp(1rem, 5vw, 10rem);
+  --spacing-center: clamp(2rem, 6vw, 15rem);
   --spacing-gap: 1rem;
   --spacing-button-block: 0.5rem;
   --spacing-button-inline: 0.75rem;
@@ -64,8 +64,8 @@ body {
   font-size: 1rem;
 }
 
-p{
-  @apply text-base ;
+button{
+  cursor: pointer;
 }
 
 a {

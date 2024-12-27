@@ -1,9 +1,9 @@
 import React from "react";
 
-export default function ComputerIcon(...props) {
+export default function ComputerIcon({className=""}) {
   return (
     <svg
-    {...props}
+     className={className}
       width={56}
       height={56}
       viewBox="0 0 56 56"

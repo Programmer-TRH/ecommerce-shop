@@ -1,13 +1,14 @@
 import React from 'react'
 
-export default function HalfStar(...props) {
+export default function HalfStar({className="",...props}) {
   return (
     <svg
-    width={20}
-    height={20}
+    width={21}
+    height={21}
     viewBox="0 0 20 20"
     fill="none"
     xmlns="http://www.w3.org/2000/svg"
+    className={className}
     {...props}
   >
     <path
