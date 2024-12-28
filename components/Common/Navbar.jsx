@@ -5,6 +5,7 @@ import React from "react";
 import Input from "./Input";
 import LoginProfileButton from "./Button/LoginProfileButton";
 import NavItem from "./NavItem";
+import Link from "next/link";
 
 export default function Navbar() {
   return (
@@ -13,19 +14,26 @@ export default function Navbar() {
       <NavItem />
       <div className="flex gap-gap items-center max-md:*:not-first:hidden">
         <form className="relative ">
-        <Input
+          <Input
             type="search"
             className="pr-7 border border-line w-full "
             placeholder="What are you looking for?"
           />
-          <button type="submit" className="absolute transform top-[55%] -translate-y-[50%] right-0.75 cursor-pointer hover:scale-105 transition-scale duration-200">
+          <button
+            type="submit"
+            className="absolute transform top-[55%] -translate-y-[50%] right-0.75 cursor-pointer hover:scale-105 transition-scale duration-200"
+          >
             <SearchIcon />
           </button>
         </form>
-        <Favourite />
-        <CartIcon />
+        <Link href="/wishlist">
+          <Favourite />
+        </Link>
+        <Link href="/cart">
+          <CartIcon />
+        </Link>
         <LoginProfileButton />
       </div>
     </header>
-  );  
+  );
 }
