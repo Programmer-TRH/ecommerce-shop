@@ -1,4 +1,3 @@
-import BottomToTopButton from "@/components/Common/Button/BottomToTopButton";
 import AllProducts from "@/components/HomePage/AllProducts";
 import BestSellingProduct from "@/components/HomePage/BestSellingProduct";
 import Category from "@/components/HomePage/Category";
@@ -18,7 +17,6 @@ export default function Home() {
      <CategoryBanner />
      <AllProducts />
      <Features />
-     <BottomToTopButton />
     </>
   );
 }
