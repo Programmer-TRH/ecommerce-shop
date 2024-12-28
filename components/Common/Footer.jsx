@@ -2,6 +2,7 @@ import React from "react";
 import Input from "./Input";
 import SendIcon from "@/Icons List/SendIcon";
 import SubTitle from "./SubTitle";
+import Link from "next/link";
 
 export default function Footer() {
   return ( 
@@ -30,11 +31,11 @@ export default function Footer() {
       </div>
       <div>
         <SubTitle subtitle="Account" />
-        <p>My Account</p>
-        <p>Login / Register</p>
-        <p>Cart</p>
-        <p>Wishlist</p>
-        <p>Shop</p>
+        <Link href="/profile">My Account</Link>
+        <div>
+          <Link href="/login" className="inline-block">Login </Link>{" "} / {" "} <Link href="/register" className="inline-block"> Register </Link></div>
+        <Link href="/cart" className="block">Cart</Link>
+        <Link href="/wishlist">Wishlist</Link>
       </div>
       <div>
         <SubTitle subtitle="Quick Link" />
