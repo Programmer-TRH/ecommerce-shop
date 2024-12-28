@@ -1,6 +1,6 @@
 import React from 'react'
 
-export default function Shop(...props) {
+export default function Shop({className=""}) {
   return (
     <svg
     width={24}
@@ -8,7 +8,7 @@ export default function Shop(...props) {
     viewBox="0 0 24 24"
     fill="none"
     xmlns="http://www.w3.org/2000/svg"
-    {...props}
+    className={className}
   >
     <path
       d="M20.485 3h-3.992l.5 5s1 1 2.5 1a3.23 3.23 0 0 0 2.139-.806.5.5 0 0 0 .15-.465L21.076 3.5a.6.6 0 0 0-.591-.5Z"

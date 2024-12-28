@@ -1,6 +1,6 @@
 import React from 'react'
 
-export default function MoneyBagIcon(...props) {
+export default function MoneyBagIcon({className=""}) {
   return (
     <svg
     width={44}
@@ -8,7 +8,7 @@ export default function MoneyBagIcon(...props) {
     viewBox="0 0 44 44"
     fill="none"
     xmlns="http://www.w3.org/2000/svg"
-    {...props}
+    className={className}
   >
     <path
       fillRule="evenodd"

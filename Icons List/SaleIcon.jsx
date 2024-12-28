@@ -1,6 +1,6 @@
 import React from 'react'
 
-export default function SaleIcon(...props) {
+export default function SaleIcon({className=""}) {
   return (
     <svg
     width={44}
@@ -8,7 +8,7 @@ export default function SaleIcon(...props) {
     viewBox="0 0 44 44"
     fill="none"
     xmlns="http://www.w3.org/2000/svg"
-    {...props}
+    className={className}
   >
     <path
       d="M22 41c10.493 0 19-8.507 19-19S32.493 3 22 3 3 11.507 3 22s8.507 19 19 19"
