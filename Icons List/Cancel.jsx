@@ -1,6 +1,6 @@
 import React from 'react'
 
-export default function Cancel(...props) {
+export default function Cancel({className=""}) {
   return (
     <svg
     width={24}
@@ -8,7 +8,7 @@ export default function Cancel(...props) {
     viewBox="0 0 24 24"
     fill="none"
     xmlns="http://www.w3.org/2000/svg"
-    {...props}
+    className={className}
   >
     <g clipPath="url(#a)" stroke="#000" strokeWidth={1.5}>
       <path
