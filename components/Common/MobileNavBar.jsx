@@ -48,8 +48,9 @@ export default function MobileNavBar() {
           <ProfileIcon className="size-8.5 -mb-1" />
           <p>Profile</p>
         </button>
-        <ProfileModal id="mobile-profile-modal" className="bottom-16 right-0 " type="mobile" />
+        <ProfileModal id="mobile-profile-modal" className="top-0 right-0 h-full " type="mobile" />
       </div>
     </div>
   );
 }
+ 
