@@ -11,7 +11,7 @@ export default function Navbar() {
     <header className="flex items-center justify-between py-2 gap-gap sticky top-0 left-0 z-100 bg-primary-white shadow ">
       <h1 className="text-3xl font-bold">Logo</h1>
       <NavItem />
-      <div className="flex gap-gap items-center max-md:*:not-first:hidden">
+      <div className="flex gap-3 items-center max-md:*:not-first:hidden">
         <form className="relative ">
           <Input
             type="search"

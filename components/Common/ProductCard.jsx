@@ -27,7 +27,7 @@ export default function ProductCard({ wishList = "", product, className = "" }) 
         <div className="*:md:mb-2 *:mb-1 flex flex-col p-1.5 md:p-2.5 z-1 absolute top-0 right-0">
           {wishList ?
             (<button className="bg-primary-black/5 hover:bg-line rounded-full p-0.75 md:p-1.25 active:bg-line transition-all duration-200 ease-in-out shadow shadow-primary-black/20">
-              <Delete className="size-5.75 md:size-6 mt-0.25" />
+              <Delete className="size-5.5 md:size-6 mt-0.25" />
             </button>) :
             (<>
               <button className="bg-primary-black/5 hover:bg-line rounded-full p-0.75 md:p-1.25 active:bg-line transition-all duration-200 ease-in-out shadow shadow-primary-black/20">

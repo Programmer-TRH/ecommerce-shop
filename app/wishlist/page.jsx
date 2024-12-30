@@ -12,7 +12,7 @@ export default function WishList() {
       <button className='px-4 py-button-block rounded-sm border border-line bg-primary-black/5 hover:bg-line active:bg-line font-medium active:font-semibold hover:font-semibold'>Add All to Cart</button>
      </div>
 
-      <div className='grid gap-8 grid-cols-[repeat(auto-fill,minmax(15rem,1fr))]'>
+      <div className='grid gap-8 grid-cols-[repeat(auto-fill,minmax(8rem,1fr))] md:grid-cols-[repeat(auto-fill,minmax(15rem,1fr))]'>
         {Product.map(product => (
           <ProductCard key={product.id} wishList="wishlist" product={product} />
         ))}
