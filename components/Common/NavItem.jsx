@@ -1,7 +1,7 @@
 "use client";
 import React from "react";
 import Link from "next/link";
-import { usePathname} from "next/navigation";
+import { usePathname } from "next/navigation";
 import { cn } from "@/lib/utils";
 
 export default function NavItem() {
@@ -12,14 +12,14 @@ export default function NavItem() {
     { name: "About", path: "/about" },
     { name: "Contact", path: "/contact" },
   ]
+  
   return (
     <nav className="max-md:hidden flex justify-between gap-gap">
-     {navItems.map((item) => (
+      {navItems.map((item) => (
         <Link key={item.name} href={item.path} className={cn("px-button-inline py-button-block border rounded-md border-white transition-color duration-300 hover:font-semibold text-primary-black", pathname === item.path ? "bg-secondary-red font-semibold" : "text-base ")}>
-            {item.name}
+          {item.name}
         </Link>
-     ))}
+      ))}
     </nav>
   );
 }
- 

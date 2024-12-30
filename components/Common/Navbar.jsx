@@ -1,11 +1,10 @@
-import CartIcon from "@/Icons List/CartIcon";
-import Favourite from "@/Icons List/Favourite";
 import SearchIcon from "@/Icons List/SearchIcon";
 import React from "react";
 import Input from "./Input";
 import LoginProfileButton from "./Button/LoginProfileButton";
 import NavItem from "./NavItem";
-import Link from "next/link";
+
+import RightNavItems from "./RightNavItems";
 
 export default function Navbar() {
   return (
@@ -26,12 +25,7 @@ export default function Navbar() {
             <SearchIcon />
           </button>
         </form>
-        <Link href="/wishlist">
-          <Favourite />
-        </Link>
-        <Link href="/cart">
-          <CartIcon />
-        </Link>
+        <RightNavItems />
         <LoginProfileButton />
       </div>
     </header>
